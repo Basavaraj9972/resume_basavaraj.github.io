@@ -1,0 +1,209 @@
+.border_resume{
+    border: 5px solid black;            
+}
+#image{
+    width:250px;
+    height: 251px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: aqua;
+}
+#details:hover{
+    text-shadow: 2px 2px 2px gray;
+}
+#details{
+    width: 75%;
+    height:251px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left:190px;
+    margin-top: -271px;
+    padding-left: 130px;
+    padding-top: 20px;
+    background-color: aqua;
+}
+#bassu_img{
+    border-radius: 100%;
+}
+h1{
+    padding-left: 100px;
+    color: blueviolet;
+    text-shadow: 6px 6px 6px gray;
+}
+h1:hover{
+    color: darkred;
+}
+span{
+    padding-left: 30px;
+    font-size: 30px;
+    text-shadow: 6px 6px 6px gray;
+}
+a{
+    text-decoration: none;
+    color:blueviolet;
+}
+a:hover{
+    color:orangered;
+    text-shadow: 2px 2px 2px gray; 
+}
+#lg{
+    color:darkred;
+}
+#lg:hover{
+    color:crimson;
+    text-shadow: 2px 2px 2px gray;
+}
+.logo{
+    display: inline;
+}
+
+#objective:hover{
+    background-color:cadetblue;
+}
+#objective{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:23px;
+    padding-left:25px;
+    background-color:burlywood;
+    height:60px;
+    border: 2px solid black;
+    margin: 10px;
+    margin-bottom: 180px;
+}
+/* a[href="objective.html"]{
+    color: orangered;
+} */
+
+th{
+    background-color:rgb(238, 21, 202);
+}
+tr:nth-child(odd){
+    background-color:rgb(192, 226, 201);
+}
+tr:nth-child(even){
+    background-color: rgb(118, 224, 228);
+}
+#eductiontable,th,td{
+    border-collapse: collapse;
+    border: 4px solid gray;
+    padding-left:20px;
+    padding-top: 16px;
+    padding-right:20px;
+    padding-bottom: 16px;
+    font-size:22px;                      
+}
+#educational_d{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+/* a[href="education.html"]{
+    color: orangered;
+} */
+
+.logo{
+    display: inline;
+    /* padding: 5px; */
+    margin-left :25px;
+    gap: 50px;
+}
+.skills{
+    font-size: 23px;
+    color: rgb(129, 77, 8);
+    margin-bottom: 10px;
+}
+/* a[href="skills.html"]{
+    color: orangered;
+} */
+
+#project{
+    background-color: rgb(204, 221, 236);
+    padding: 10px;
+}
+#courier{
+    background-color: rgb(111, 111, 245);
+}
+#Nocode{
+    background-color: rgb(21, 180, 119);   
+}
+#stadium{
+    background-color: chartreuse;
+}
+#courier,#Nocode,#stadium{
+    padding-left:20px;
+    padding-top:1px;
+    padding-bottom: 1px;
+    font-size: 18px;
+}
+/* a[href="projects.html"]{
+    color: orangered;
+} */
+
+#interest{
+    padding: 20px;
+    font-size:25px;
+    background-color: rgb(137, 223, 158);
+    color: deeppink;
+    
+}
+/* a[href="interests.html"]{
+    color: orangered;
+} */
+
+#internship_s{
+    color:rgb(11, 86, 184);
+    background-color: blanchedalmond;
+}
+#date_month{
+    color: darkslateblue;
+    font-size: 20px;
+}
+.internship_info{
+    font-size: 20px;
+}
+#internship_d{
+    background-color: coral;
+    border: 2px solid rgb(18, 2, 32);
+    padding-left: 20px;
+}
+/* a[href="internship.html"]{
+    color: orangered;
+} */
+
+#language{
+    background-color: rgb(247, 214, 130);
+    padding-left: 20px;
+}
+.lspeaking{
+    font-size: 23px;
+    color: darkmagenta;
+}
+/* a[href="language.html"]{
+    color: orangered;
+} */
+
+#declaration_d{
+    background-color: rgb(166, 233, 166);
+}
+#declation_s{
+    padding-left: 30px;
+    color: rgba(240, 13, 13, 0.959);
+}
+/* a[href="declaration.html"]{
+    color: orangered;
+} */
+#name{
+    animation-name:ani;
+    animation-duration:20s;
+    position:relative;
+}
+@keyframes ani {
+    20%{background-color: seagreen; right:60px;}
+    30%{background-color: rgb(209, 101, 186); right:60px;}
+    20%{background-color: seagreen; right:60px;}
+    30%{background-color: rgb(241, 109, 109); right:60px;}
+    100%{background-color: yellow;left:0}
+
+}
+input[type="submit"]{
+    margin-left: 20px;
+}
